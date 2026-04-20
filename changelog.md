@@ -2,6 +2,11 @@
 
 All notable changes to `AmazonGiftCode` will be documented in this file.
 
+## Version 1.3
+
+### Added
+ - Reseller programme Id (fix typo in key)
+
 ## Version 1.2
 
 ### Added

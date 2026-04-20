@@ -256,7 +256,7 @@ class AWS
         $payload = [
             'creationRequestId' => $creationId ?: uniqid($this->_config->getPartner().'_'),
             'partnerId' => $this->_config->getPartner(),
-            ...($programId !== null ? ['programID' => $programId] : []),
+            ...($programId !== null ? ['programId' => $programId] : []),
             'value' =>
                 [
                     'currencyCode' => $this->_config->getCurrency(),
